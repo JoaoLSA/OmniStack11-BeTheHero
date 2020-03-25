@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './Header'
+
+// JSX (Javascript XML) - HTML Integrado ao JS
+// Componente - Função que retorna HTML
+// Propriedades - Atributos para componentes (id por ex)
+// Estado - 
+// Imutabilidade
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          pintao gostoso
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Header>
+      Semana OmniStack
+    </Header>
   );
 }
 
