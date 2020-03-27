@@ -8,17 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
 node
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Installing npm packages
+To install the necessary npm packages run:
 
 ```
 cd backend
@@ -32,11 +28,9 @@ cd frontend
 npm install
 ```
 
-First time running front or backend
+Run both applications using
 
 ```
-
-
 npm start
 ```
 
@@ -68,9 +62,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Knex.js](http://knexjs.org/) - A SQL Query Builder for javascript
+* [Node.js](https://nodejs.org/) - JavaScript runtime
+* [SQLite](https://www.sqlite.org/index.html) - SQL database engine
 
 ## Contributing
 
@@ -95,4 +89,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
