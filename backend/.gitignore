@@ -12,4 +12,4 @@ jspm_packages/
 .env.test
 
 #sqlite
-/database/db.sqlite
+src/database/db.sqlite
