@@ -1,6 +1,7 @@
+
 # Semana Omnistack 11.0
 
-One Paragraph of project description goes here
+Backend for Be The Hero project
 
 ## Getting Started
 
@@ -8,33 +9,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-```
-node
-```
+ 1. Node.js
 
 ### Installing
 
 To install the necessary npm packages run:
 
 ```
-cd backend
-
 npm install
 ```
 
-```
-cd frontend
-
-npm install
-```
-
-Run both applications using
+Then, to start it use
 
 ```
 npm start
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
@@ -68,7 +57,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+ 1. Fork the repository and create your branch from `master`.
+ 2. Push the changes to your fork.
+ 3. Create a pull request to the Be The Hero repository.
 
 ## Versioning
 
@@ -76,9 +67,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Pedro Felippe** - [pefelippe](https://github.com/pefelippe/)
+* **João Luiz** - [JoaoLSA](https://github.com/JoaoLSA/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/pefelippe/OmniStack11-BeTheHero) who participated in this project.
 
 ## License
 
@@ -86,6 +78,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
+* RocketSeat
 * Inspiration
 * etc
