@@ -9,10 +9,12 @@ const routes = express.Router()
 
 routes.post('/ongs', OngController.create)
 routes.get('/ongs', OngController.index)
+routes.delete('/ongs', IncidentController.delete)
 
 routes.post('/incidents', IncidentController.create)
 routes.get('/incidents', IncidentController.index)
 routes.delete('/incidents/:id', IncidentController.delete)
+//routes.delete('/incidents/all', IncidentController.delete_all)
 
 routes.get('/profile', ProfileController.index)
 
